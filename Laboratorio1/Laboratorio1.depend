@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1741559926 source:c:\users\valentina\onedrive\desktop\poo\laboratorio1\src\cliente.cpp
+	"Cliente.h"
+	<string>
+
+1741489997 c:\users\valentina\onedrive\desktop\poo\laboratorio1\include\cliente.h
+	<string>
+
+1741561223 source:c:\users\valentina\onedrive\desktop\poo\laboratorio1\main.cpp
+	<iostream>
+	"Banco.h"
+
+1741560241 c:\users\valentina\onedrive\desktop\poo\laboratorio1\include\banco.h
+	<vector>
+	"Cliente.h"
+	"Cuenta.h"
+
+1741559928 c:\users\valentina\onedrive\desktop\poo\laboratorio1\include\cuenta.h
+	<vector>
+	"Cliente.h"
+
+1741560234 source:c:\users\valentina\onedrive\desktop\poo\laboratorio1\src\banco.cpp
+	"Banco.h"
+	<iostream>
+
+1741561207 source:c:\users\valentina\onedrive\desktop\poo\laboratorio1\src\cuenta.cpp
+	"Cuenta.h"
+	<iostream>
+
