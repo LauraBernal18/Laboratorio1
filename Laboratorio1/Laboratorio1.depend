@@ -27,3 +27,31 @@
 	"Cuenta.h"
 	<iostream>
 
+1741806461 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\main.cpp
+	<iostream>
+	"Banco.h"
+
+1741806535 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\banco.h
+	<vector>
+	"Cliente.h"
+	"Cuenta.h"
+
+1741489997 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cliente.h
+	<string>
+
+1741806685 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cuenta.h
+	<vector>
+	"Cliente.h"
+
+1741806522 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\banco.cpp
+	"Banco.h"
+	<iostream>
+
+1741559926 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cliente.cpp
+	"Cliente.h"
+	<string>
+
+1741806835 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cuenta.cpp
+	"Cuenta.h"
+	<iostream>
+

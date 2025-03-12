@@ -19,7 +19,7 @@ int main()
 
     while (iniciarProceso == 0)  // Corrección en la condición del while
     {
-        string mensaje = "Escoja una opcion: 1-Crear cuenta 2-Crear cliente 3-Consignar, 4-Retirar, 5-Salir";
+        string mensaje = "Escoja una opcion: 1-Crear cuenta 2-Crear cliente 3-Consignar, 4-Retirar, 5-Calcular el promedio de saldo de las cuentas, 6-Imprimir informe de cada cuenta, 7-salir";
         string opcion = leerDato(mensaje);
         if (opcion == "1")
         {
@@ -46,8 +46,7 @@ int main()
         }
 
 
-
-        else if (opcion == "5")
+        else if (opcion == "7")
         {
             iniciarProceso = 1;  // Salir del bucle
         }

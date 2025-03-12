@@ -16,7 +16,9 @@ class Banco
     public:
         void crearCliente( int id, string nombre, int telefono);
         void crearCuenta(int numCuenta, double saldo);
+        void imprimirInforme();
         double calcularPromedio();
+
 
 
 

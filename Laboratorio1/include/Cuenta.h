@@ -9,17 +9,16 @@ class Cuenta
     private:
         int numCuenta;
         double saldo;
-        std::vector<Cliente*> clientes;
+        std::vector<Cliente> clientes[3];
 
 
 
     public:
         int getNumCuenta();
-        void setNumCuenta(int numCuenta);
+        void setNumCuenta(int numCenta);
         double getSaldo();
         void retirarDinero(double cantidad);
         void consignarDinero(double cantidad);
-        void asociarCliente(Cliente* cliente);
         void mostrarClientes();
 
 

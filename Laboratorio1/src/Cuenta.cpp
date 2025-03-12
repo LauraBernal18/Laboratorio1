@@ -38,12 +38,6 @@ void Cuenta::consignarDinero(double cantidad)
 
 }
 
-void Cuenta::asociarCliente(Cliente* cliente)
-{
-    clientes.push_back(cliente);
-
-}
-
 void Cuenta::mostrarClientes()
 {
     for(int i = 0; i < clientes.size(); i++){
