@@ -1,7 +1,5 @@
 #ifndef CUENTA_H
 #define CUENTA_H
-#include <vector>
-#include "Cliente.h"
 using namespace std;
 
 class Cuenta
@@ -9,21 +7,18 @@ class Cuenta
     private:
         int numCuenta;
         double saldo;
-        std::vector<Cliente> clientes[3];
 
 
 
     public:
         int getNumCuenta();
-        void setNumCuenta(int numCenta);
+        void setNumCuenta(int newNumCuenta);
         double getSaldo();
-        void retirarDinero(double cantidad);
-        void consignarDinero(double cantidad);
-        void mostrarClientes();
+        void setSaldo(double newSaldo);
 
 
 
-        Cuenta();
+        Cuenta(int numCuenta, double saldo);
         virtual ~Cuenta();
 
     protected:

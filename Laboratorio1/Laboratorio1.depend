@@ -27,31 +27,29 @@
 	"Cuenta.h"
 	<iostream>
 
-1741806461 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\main.cpp
+1741897655 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\main.cpp
 	<iostream>
 	"Banco.h"
 
-1741806535 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\banco.h
+1741899788 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\banco.h
 	<vector>
 	"Cliente.h"
 	"Cuenta.h"
 
-1741489997 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cliente.h
+1741895299 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cliente.h
 	<string>
 
-1741806685 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cuenta.h
-	<vector>
-	"Cliente.h"
+1741898410 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cuenta.h
 
-1741806522 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\banco.cpp
+1741900959 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\banco.cpp
 	"Banco.h"
 	<iostream>
 
-1741559926 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cliente.cpp
+1741898213 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cliente.cpp
 	"Cliente.h"
 	<string>
 
-1741806835 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cuenta.cpp
+1741899757 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\cuenta.cpp
 	"Cuenta.h"
 	<iostream>
 

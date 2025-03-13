@@ -20,7 +20,7 @@ class Cliente
         int getTelefono();
         void setTelefono(int newTelefono);
 
-        Cliente();
+        Cliente(int id, string nombre, int telefono);
         virtual ~Cliente();
 
     protected:

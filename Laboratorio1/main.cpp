@@ -7,42 +7,61 @@ using namespace std;
 string leerDato(string mensaje)
 {
     string dato = "";
-    cout << mensaje << ":" << endl;
+    cout << mensaje << "" << endl;
     getline(cin, dato);
     return dato;
 }
 
 int main()
 {
-    Banco banco1;  // Instancia de la clase Banco
+    Banco banco;  // Instancia de la clase Banco
     int iniciarProceso = 0;
 
     while (iniciarProceso == 0)  // Corrección en la condición del while
     {
-        string mensaje = "Escoja una opcion: 1-Crear cuenta 2-Crear cliente 3-Consignar, 4-Retirar, 5-Calcular el promedio de saldo de las cuentas, 6-Imprimir informe de cada cuenta, 7-salir";
+        string mensaje = "ESCOJA UNA OPCION: \n\n 1-Crear cuenta \n 2-Crear cliente \n 3-Consignar \n 4-Retirar \n 5-Calcular el promedio de saldo de las cuentas \n 6-Imprimir informe de cada cuenta \n 7-salir";
         string opcion = leerDato(mensaje);
         if (opcion == "1")
         {
-            string numCuentaStr = leerDato("Ingrese el número de cuenta:");
+            string numCuentaStr = leerDato("Ingrese el numero de cuenta:");
             string saldoStr = leerDato("Ingrese el saldo inicial:");
             int numCuenta = stoi(numCuentaStr);
             double saldo = stod(saldoStr);
 
-            banco1.crearCuenta(numCuenta, saldo);
-            cout << "Cuenta creada con exito.\n";
-
-
+            banco.crearCuenta(numCuenta, saldo);
         }
         else if (opcion == "2")
         {
             string idStr = leerDato("Ingrese el ID del cliente:");
             string nombre = leerDato("Ingrese el nombre del cliente:");
-            string telefonoStr = leerDato("Ingrese el teléfono del cliente:");
+            string telefonoStr = leerDato("Ingrese el telefono del cliente:");
             int id = stoi(idStr);
             int telefono = stoi(telefonoStr);
 
-            banco1.crearCliente(id, nombre, telefono);
+            banco.crearCliente(id, nombre, telefono);
             cout << "Cliente creado con exito.\n";
+        }
+        else if (opcion == "3") // Consignar
+        {
+            int numCuenta = stoi(leerDato("Ingrese el numero de cuenta:"));
+            double cantidad = stod(leerDato("Ingrese la cantidad a consignar:"));
+            banco.consignarDinero(numCuenta, cantidad);
+        }
+        else if (opcion == "4") // Retirar
+        {
+            int numCuenta = stoi(leerDato("Ingrese el numero de cuenta:"));
+            double cantidad = stod(leerDato("Ingrese la cantidad a retirar:"));
+            banco.retirarDinero(numCuenta, cantidad);
+
+        }
+        else if (opcion == "5") // Calcular el promedio de saldo de las cuentas
+        {
+            banco.calcularPromedio();
+        }
+
+        else if (opcion == "6")//Imprimir informe de cuentas
+        {
+                banco.imprimirInforme();
         }
 
 

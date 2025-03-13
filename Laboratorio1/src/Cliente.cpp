@@ -2,14 +2,12 @@
 #include <string>
 using namespace std;
 
-Cliente::Cliente()
+Cliente::Cliente(int id, string nombre, int telefono)
 {
+    this->id = id;
+    this->nombre = nombre;
+    this->telefono = telefono;
     //ctor
-}
-
-Cliente::~Cliente()
-{
-    //dtor
 }
 
 int Cliente::getId()
@@ -40,6 +38,11 @@ int Cliente::getTelefono()
 void Cliente::setTelefono(int newTelefono)
 {
     telefono = newTelefono;
+}
+
+Cliente::~Cliente()
+{
+    //dtor
 }
 
 

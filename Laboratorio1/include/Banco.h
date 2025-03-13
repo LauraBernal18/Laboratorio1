@@ -14,8 +14,15 @@ class Banco
 
 
     public:
+        // Métodos de gestión de clientes y cuentas
         void crearCliente( int id, string nombre, int telefono);
         void crearCuenta(int numCuenta, double saldo);
+
+        // Métodos de transacción
+        void retirarDinero(int numCuenta, double cantidad);
+        void consignarDinero(int numCuenta, double cantidad);
+
+        // Métodos de consulta
         void imprimirInforme();
         double calcularPromedio();
 

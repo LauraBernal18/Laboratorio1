@@ -2,8 +2,10 @@
 #include <iostream>
 using namespace std;
 
-Cuenta::Cuenta()
+Cuenta::Cuenta(int numCuenta, double saldo)
 {
+    this->numCuenta = numCuenta;
+    this->saldo = saldo;
     //ctor
 }
 
@@ -22,28 +24,10 @@ double Cuenta::getSaldo()
     return saldo;
 }
 
-void Cuenta::retirarDinero(double cantidad)
-{
-    if(cantidad > saldo){
-        cout << "Saldo insuficiente" << endl;
-    }
-    else{
-        saldo = saldo - cantidad;
-    }
-}
-void Cuenta::consignarDinero(double cantidad)
-{
-    saldo = saldo + cantidad;
-    cout << "Nuevo saldo: " << saldo << endl;
-
+void Cuenta::setSaldo(double newSaldo) {
+    saldo = newSaldo;
 }
 
-void Cuenta::mostrarClientes()
-{
-    for(int i = 0; i < clientes.size(); i++){
-        cout << clientes[i] << endl;
-    }
-}
 
 
 Cuenta::~Cuenta()
