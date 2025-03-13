@@ -31,7 +31,7 @@
 	<iostream>
 	"Banco.h"
 
-1741899788 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\banco.h
+1741901204 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\banco.h
 	<vector>
 	"Cliente.h"
 	"Cuenta.h"
@@ -39,7 +39,7 @@
 1741895299 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cliente.h
 	<string>
 
-1741898410 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cuenta.h
+1741901280 c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\include\cuenta.h
 
 1741900959 source:c:\users\valentina\onedrive\documentos\github\laboratorio1\laboratorio1\src\banco.cpp
 	"Banco.h"

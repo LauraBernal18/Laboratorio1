@@ -16,8 +16,6 @@ class Cuenta
         double getSaldo();
         void setSaldo(double newSaldo);
 
-
-
         Cuenta(int numCuenta, double saldo);
         virtual ~Cuenta();
 
